@@ -1,4 +1,5 @@
-Cài đặt Node.js
-Cài đặt thư viện:
-npm install --save crypto-js
-npm install elliptic
+# Cài đặt 
+Node.js
+# Cài đặt thư viện:
+1. npm install --save crypto-js
+2. npm install elliptic
