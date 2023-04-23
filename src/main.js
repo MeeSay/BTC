@@ -11,7 +11,7 @@ const tx1 = new Transaction(myWalletAddress,'public key goes here',10);
 tx1.signTransaction(myKey);
 BTC.addTransaction(tx1);
 
-console.log('\n Strating the miner ... ');
+console.log('\n Starting the miner ... ');
 BTC.miningPendingTransactions(myWalletAddress);
 
 console.log('\nBalance of meesay is', BTC.getBalanceOfAddress(myWalletAddress));
